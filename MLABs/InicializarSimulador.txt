@@ -1,1 +1,0 @@
-qemu-system-arm -kernel ~/Área\ de\ Trabalho/Faculdade/4º\ Semestre/ARQ2/qemu/kernel-qemu-4.4.34-jessie -cpu arm1176 -m 256 -M versatilepb -serial stdio -append "root=/dev/sda2 rootfstype=ext4 rw" -hda ~/Área\ de\ Trabalho/Faculdade/4º\ Semestre/ARQ2/qemu/2020-08-20-raspios-buster-armhf.img -no-reboot
